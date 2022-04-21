@@ -1,0 +1,28 @@
+
+
+
+
+#titre{
+    font-family: Algerian;
+    text-align: center;
+    font-size: 60px;
+}
+nav{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    color: #fff;
+    background-color: #ccc;
+}
+li{
+    font-family: Algerian;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+li:hover{
+    color: yellow;
+   transition: color 1s ease;
+   text-shadow: 1px 10px 0px 0px;
+}
